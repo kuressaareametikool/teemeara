@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+            @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+            :root {
+              --gray: #9190a0;
+            }
+            body {
+              font-family: "Poppins", sans-serif;
+              margin: 0;
+              background: black;
+              color: white;
+              padding: 50px;
+              font-size: 18px;
+            }
+            h1 {
+              font-size: 30px;
+              font-weight: normal;
+            }
+            .cards img {
+              width: 100%;
+              object-fit: cover;
+              display: block;
+            }
+            .cards {
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+              grid-gap: 15px;
+              align-items: stretch;
+              grid-template-areas:
+                "a b b"
+                "c c d"
+                "e f g"
+                "h h h";
+            }
+            @media (max-width: 600px) {
+              .cards {
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas:
+                "a b"
+                "a c"
+                "d e"
+                "f g"
+                "h h";
+              }
+            }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Urban Innovation Centre</h1>
+
+    <div class="cards">
+      <img
+        style="grid-area: a"
+        src="https://d3n32ilufxuvd1.cloudfront.net/5c95090e3b3fc9021b9a594c/1354251/upload-cfa94c32-bf33-45fd-88a2-36aa641b41db..jpg"
+      />
+
+      <img
+        style="grid-area: b"
+        src="https://d3n32ilufxuvd1.cloudfront.net/5c95090e3b3fc9021b9a594c/1354251/upload-cfa94c32-bf33-45fd-88a2-36aa641b41db..jpg"
+      />
+
+      <img
+        style="grid-area: c"
+        src="https://d3n32ilufxuvd1.cloudfront.net/5c95090e3b3fc9021b9a594c/1354251/upload-cfa94c32-bf33-45fd-88a2-36aa641b41db..jpg"
+      />
+
+      <div style="grid-area: d">Tsau mis teed</div>
+
+      <img
+        style="grid-area: e"
+        src="https://d3n32ilufxuvd1.cloudfront.net/5c95090e3b3fc9021b9a594c/1354251/upload-cfa94c32-bf33-45fd-88a2-36aa641b41db..jpg"
+      />
+
+      <img
+        style="grid-area: f"
+        src="https://d3n32ilufxuvd1.cloudfront.net/5c95090e3b3fc9021b9a594c/1354251/upload-cfa94c32-bf33-45fd-88a2-36aa641b41db..jpg"
+      />
+
+      <img
+        style="grid-area: g"
+        src="https://d3n32ilufxuvd1.cloudfront.net/5c95090e3b3fc9021b9a594c/1354251/upload-cfa94c32-bf33-45fd-88a2-36aa641b41db..jpg"
+      />
+
+      <img
+        style="grid-area: h"
+        src="https://d3n32ilufxuvd1.cloudfront.net/5c95090e3b3fc9021b9a594c/1354251/upload-cfa94c32-bf33-45fd-88a2-36aa641b41db..jpg"
+      />
+    </div>
+  </body>
+</html>
