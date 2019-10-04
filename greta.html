@@ -6,49 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <style>
-            @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-            :root {
-              --gray: #9190a0;
-            }
-            body {
-              font-family: "Poppins", sans-serif;
-              margin: 0;
-              background: black;
-              color: white;
-              padding: 50px;
-              font-size: 18px;
-            }
-            h1 {
-              font-size: 30px;
-              font-weight: normal;
-            }
-            .cards img {
-              width: 100%;
-              object-fit: cover;
-              display: block;
-            }
-            .cards {
-              display: grid;
-              grid-template-columns: 1fr 1fr 1fr;
-              grid-gap: 15px;
-              align-items: stretch;
-              grid-template-areas:
-                "a b b"
-                "c c d"
-                "e f g"
-                "h h h";
-            }
-            @media (max-width: 600px) {
-              .cards {
-                grid-template-columns: 1fr 1fr;
-                grid-template-areas:
-                "a b"
-                "a c"
-                "d e"
-                "f g"
-                "h h";
-              }
-            }
+      @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+      :root {
+        --gray: #9190a0;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        background: black;
+        color: white;
+        padding: 50px;
+        font-size: 18px;
+      }
+      h1 {
+        font-size: 30px;
+        font-weight: normal;
+      }
+      .cards img {
+        width: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+        align-items: stretch;
+        grid-template-areas:
+          "a b b"
+          "c c d"
+          "e f g"
+          "h h h";
+      }
+      @media (max-width: 600px) {
+        .cards {
+          grid-template-columns: 1fr 1fr;
+          grid-template-areas:
+            "a b"
+            "a c"
+            "d e"
+            "f g"
+            "h h";
         }
       }
     </style>
