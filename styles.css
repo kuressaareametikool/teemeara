@@ -18,7 +18,7 @@ body {
   justify-content: center;
 }
 body > div {
-  max-width: 900px;
+  width: 900px;
 }
 .elegant {
   font-family: "Source Serif Pro", serif;
@@ -42,29 +42,16 @@ h1, h2, h3, h4, h5 {
 /* Header */
 
 header {
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
+  height: 100px;
   align-items: center;
   margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  grid-gap: 15px;
 }
 
 header .logo {
-  display: flex;
-  align-items: center;
-}
-header .logo > * {
-  margin-right: 10px;
-}
-
-header .links {
-  display: flex;
-}
-header .links > * {
-  margin-left: 10px;
-}
-header .links > *:first-child {
-  margin: 0;
+  line-height: 0;
 }
 
 /* Cards */
