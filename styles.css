@@ -1,6 +1,6 @@
 /* Global styles */
 
-@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:400,700|Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,700,700i|Source+Serif+Pro&display=swap");
 
 :root {
   --color1: salmon;
@@ -34,7 +34,7 @@ a:hover {
 img {
   width: 100%;
   display: block;
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.05);
 }
 h1, h2, h3, h4, h5 {
   margin: 0;
@@ -108,7 +108,7 @@ footer a {
 
 .content {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 2fr;
   grid-gap: 25px;
 }
 
